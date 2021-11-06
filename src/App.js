@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import pepe from './assets/pepe.gif';
+import React from './assets/React.jpg';
 import TechList from './components/TechList'
 
 function App() {
   return (
     <div>
       <h1>
-      Pepe dançadero
+      React JS
     </h1>
     <img src={pepe} />
       <TechList />
